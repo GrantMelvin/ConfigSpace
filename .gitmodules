@@ -1,3 +1,0 @@
-[submodule "charts"]
-	path = submodules/charts
-		url = https://github.com/rancher/charts.git

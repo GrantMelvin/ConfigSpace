@@ -1,0 +1,25 @@
+# The default namespace to be applied to resources. This field is not used to
+# enforce or lock down the deployment to a specific namespace, but instead
+# provide the default value of the namespace field if one is not specified
+# in the manifests.
+# Default: default
+defaultNamespace: cattle-ui-plugin-system
+
+# All resources will be assigned to this namespace and if any cluster scoped
+# resource exists the deployment will fail.
+# Default: ""
+# namespace: default
+
+  # - name: ui-plugin-operator
+  #   repository: https://charts.rancher.io/
+  #   version: 103.0.2+up0.2.1
+
+helm:
+
+  chart: ui-plugin-operator
+
+  repo: https://charts.rancher.io/
+
+  version: 103.0.2+up0.2.1
+
+  disableDependencyUpdate: false
