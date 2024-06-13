@@ -12,6 +12,3 @@ dependencies:
   - name: ui-plugin-operator
     repository: https://charts.rancher.io/
     version: 103.0.2+up0.2.1
-  
-
-    

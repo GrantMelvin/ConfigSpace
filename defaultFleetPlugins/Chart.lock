@@ -1,0 +1,6 @@
+dependencies:
+- name: ui-plugin-operator
+  repository: https://charts.rancher.io/
+  version: 103.0.2+up0.2.1
+digest: sha256:0f2b4d79690c364f5de8db3dee6bb5ebb13407db7db2e1930a6c7741008cb810
+generated: "2024-06-13T07:42:53.2769306-04:00"
